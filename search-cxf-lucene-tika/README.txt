@@ -64,4 +64,6 @@ ct eq 'java' and xmpTPg:NPages lt 47
 modified gt '2013/06/01'
 ct eq 'java' or ct eq 'websoc*'
 ct eq 'cxf' and ct eq 'tika'
-
+Author eq '*Oracle'
+Author eq '*Oracle' or Author eq 'reta'
+(ct eq 'java' or ct eq 'tika') and Author eq 'reta' 
